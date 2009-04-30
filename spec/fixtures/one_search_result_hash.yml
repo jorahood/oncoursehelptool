@@ -1,0 +1,20 @@
+--- 
+kbsearch:
+  results: 
+    result: 
+      visibility: visible
+      score: "-0.0002"
+      docid: auoi
+      title: Oncourse CL changes and enhancements for 2007-2008
+      domains: 
+        domain: 
+        - all
+        - oncoursecl
+  noexist: 
+  numResults: "1"
+  start: "1"
+  advanced: "0"
+  version: "0.8"
+  ignored: 
+  query: |
+    'helper'

@@ -1,0 +1,13 @@
+kbsearch:
+  results: 
+  noexist: |
+    chunky bacon
+
+  numResults: "0"
+  start: "1"
+  advanced: "0"
+  version: "0.8"
+  ignored: 
+  query: |
+    'chunky', and 'bacon'
+

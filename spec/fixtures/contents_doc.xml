@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE document [
+<!ENTITY nbsp "&#160;">
+<!ENTITY copy "&#169;">
+<!ENTITY reg "&#174;">
+]>
+
+<document>
+  <kbml version="-//Indiana University//DTD KBML 0.9//EN">
+    <kbq>Oncourse CL help: Table of contents</kbq>
+    <body>
+      
+      <ul><li><a>Getting help</a>
+          
+          <ul><li><kba docid="atjv" qline="oncoursecl" access="allowed"><title>Training and support</title><domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba> </li><li><kba docid="arne" qline="oncoursecl" access="allowed"><title>Give feedback or ask a question</title><domain>oncoursecl</domain><visibility>visible</visibility></kba></li><li><kba docid="arms" qline="oncoursecl" access="allowed"><title>When requesting assistance, what information should I provide?</title><domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba></li></ul>
+        </li><li><a>Basics</a>
+          
+          <ul><li><kba docid="arns" qline="oncoursecl" access="allowed"><title>General information</title><domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba></li><li><kba docid="arfz" qline="oncoursecl" access="allowed"><title>Course and project sites</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba></li><li><kba docid="arga" qline="oncoursecl" access="allowed"><title>Menubar</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba></li><li><kba docid="arfy" qline="oncoursecl" access="allowed"><title>My Workspace</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+              
+              <ul><li><kba docid="arfp" qline="oncoursecl" access="allowed"><title>Membership</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba></li><li><kba docid="arfr" qline="oncoursecl" access="allowed"><title>Worksite Setup</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba></li><li><kba docid="argi" qline="oncoursecl" access="allowed"><title>Preferences</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba></li><li><kba docid="audl" qline="oncoursecl" access="allowed"><title>Profile</title><domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba></li></ul>					 
+            </li><li><kba docid="arfo" qline="oncoursecl" access="allowed"><title>Permissions and roles</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+              
+          </li></ul>					 
+        </li><li><a>Tools</a>				 
+          
+          <ul><li><kba docid="argh" qline="oncoursecl" access="allowed"><title>Home/Worksite Information</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="argc" qline="oncoursecl" access="allowed"><title>Announcements</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="argj" qline="oncoursecl" access="allowed"><title>Assignments</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="arfm" qline="oncoursecl" access="allowed"><title>Calendar</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="arft" qline="oncoursecl" access="allowed"><title>Chat Room</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="argb" qline="oncoursecl" access="allowed"><title>Drop Box</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="arfv" qline="oncoursecl" access="allowed"><title>Email Archive</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="arij" qline="oncoursecl" access="allowed"><title>ePortfolio</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="awed" qline="oncoursecl" access="allowed"><title>Evaluations</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="asbg" qline="oncoursecl" access="allowed"><title>Forums</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>			
+            </li><li><kba docid="awej" qline="oncoursecl" access="allowed"><title>Glossary</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="arge" qline="oncoursecl" access="allowed"><title>Gradebook</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="awpp" qline="oncoursecl" access="allowed"><title>iTunes U</title><domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="aucd" qline="oncoursecl" access="allowed"><title>Library Resources</title><domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="avxf" qline="oncoursecl" access="allowed"><title>Matrices</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="avaq" qline="oncoursecl" access="allowed"><title>Messages</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><domain>sakainew</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="argf" qline="oncoursecl" access="allowed"><title>News</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="ataf" qline="oncoursecl" access="allowed"><title>Official Final Grades tool</title><domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="aonp" qline="oncoursecl" access="allowed"><title>Original Test and Survey Tool</title><domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="aucz" qline="oncoursecl" access="allowed"><title>Podcasts</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="atip" qline="oncoursecl" access="allowed"><title>Post'Em</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="aulw" text="Presentations" access="allowed"><title>Presentations</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="arfs" qline="oncoursecl" access="allowed"><title>Resources</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="aruk" qline="oncoursecl" access="allowed"><title>Roster</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="argq" qline="oncoursecl" access="allowed"><title>Site Setup</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="avkr" qline="oncoursecl" access="allowed"><title>Site Stats</title><domain>all</domain><domain>oncoursecl</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="argg" qline="oncoursecl" access="allowed"><title>Syllabus</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="argr" qline="oncoursecl" access="allowed"><title>Web Content</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+            </li><li><kba docid="argt" qline="oncoursecl" access="allowed"><title>WebDAV</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+              
+            </li><li><kba docid="atyc" qline="oncoursecl" access="allowed"><title>Wiki</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>        
+            </li><li><kba docid="avxs" qline="oncoursecl" access="allowed"><title>Wizards</title><domain>all</domain><domain>oncoursecl</domain><domain>sakai-all</domain><domain>sakaiht</domain><visibility>visible</visibility></kba>
+          </li></ul>
+    </li></ul></body>
+    
+    <xtra>
+      <term weight="0">blah</term>
+    </xtra>
+  </kbml>
+  <metadata>
+    <docid>auob</docid>
+    <owner firstname="" lastname="Knowledge Management Team">sckb</owner>
+    
+    <author firstname="J Andrew" lastname="Orahood">jorahood</author>
+    <birthdate day="06" month="11" year="2006"/>
+    <lastmodified day="13" month="03" year="2008"/>
+    <approved day="13" month="03" year="2008"/>
+    <size>3174</size>
+    <importance>standard</importance>
+    <visibility>nosearch</visibility>
+    
+    <volatility>stable</volatility>
+    <status>approved</status>
+    <domain>oncoursecl</domain>
+  </metadata>
+</document>

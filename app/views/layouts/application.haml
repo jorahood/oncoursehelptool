@@ -1,0 +1,23 @@
+!!!
+%html{html_attrs}
+  %head
+    %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}
+    %title Oncourse Help
+    %link{:rel=>"stylesheet", :href=>"/stylesheets/tool.css", :type=>"text/css"}
+    %link{:rel=>"stylesheet", :href=>"/stylesheets/default.css", :type=>"text/css"}
+    %link{:rel=>"stylesheet", :href=>"/stylesheets/sassy.css", :type=>"text/css"}
+    %link{:rel=> 'stylesheet', :href=> 'http://yui.yahooapis.com/2.5.2/build/autocomplete/assets/skins/sam/autocomplete.css', :type=> 'text/css'}
+    %link{:rel=> 'stylesheet', :href=> "http://yui.yahooapis.com/2.5.2/build/logger/assets/skins/sam/logger.css", :type=> 'text/css'}
+    %link{:rel=> 'stylesheet', :href=> "http://yui.yahooapis.com/2.5.2/build/treeview/assets/skins/sam/treeview.css", :type=>'text/css'}
+    %link{:rel=> 'stylesheet', :href=>'/stylesheets/tree.css', :type=>'text/css'}
+    %script{:src=> "http://yui.yahooapis.com/2.5.2/build/yahoo-dom-event/yahoo-dom-event.js"}
+    %script{:src=> "http://yui.yahooapis.com/2.5.2/build/connection/connection.js"}
+    %script{:src=> "http://yui.yahooapis.com/2.5.2/build/animation/animation.js"}
+    %script{:src=> "http://yui.yahooapis.com/2.5.2/build/selector/selector-beta.js"}
+    %script{:src=> "http://yui.yahooapis.com/2.5.2/build/autocomplete/autocomplete.js"}
+    %script{:src=> "http://yui.yahooapis.com/2.5.2/build/logger/logger.js"}
+    %script{:src=> "http://yui.yahooapis.com/2.5.2/build/treeview/treeview.js"}
+
+    = javascript_include_tag('application')
+  %body#body
+    = yield

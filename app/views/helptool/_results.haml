@@ -1,0 +1,8 @@
+- if @search.results_list
+  %ul#doc_list= render :partial=> 'result_doc', :collection=> @search.results_list
+  - else
+    #failed_search 
+      Your search returned no results.
+      - if @search.noexist_terms
+        These terms are not in the Oncourse KB:
+        %span.noexist= @search.noexist_terms.to_sentence

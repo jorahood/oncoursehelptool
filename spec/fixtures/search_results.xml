@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kbsearch>
+  <query>'live'</query>
+  <noexist></noexist>
+  <version>0.8</version>
+  <ignored></ignored>
+  <advanced>0</advanced>
+  <start>1</start>
+  <numResults>4</numResults>
+  <results>
+    <result>
+      <docid>auyj</docid>
+      <title>Campus Support Centers</title>
+      <score>0.6921</score>
+      <visibility>visible</visibility>
+      <domains>
+        <domain>oncoursecl</domain>
+      </domains>
+    </result>
+    <result>
+      <docid>atlx</docid>
+      <title>Why can't I create a gradebook entry for my assessment?</title>
+      <score>-0.0002</score>
+      <visibility>visible</visibility
+      ><domains>
+        <domain>all</domain>
+        <domain>oncoursecl</domain>
+        <domain>sakai-all</domain>
+        <domain>sakaiht</domain>
+      </domains>
+    </result>
+    <result>
+      <docid>ardc</docid>
+      <title>Tests &amp;amp; Surveys: Publishing an assessment</title>
+      <score>-0.0002</score>
+      <visibility>visible</visibility>
+      <domains>
+        <domain>oncoursecl</domain>
+        <domain>sakai-all</domain>
+        <domain>sakaiht</domain>
+      </domains>
+    </result>
+    <result>
+      <docid>arbk</docid>
+      <title>Posting an assignment previously saved as a draft</title>
+      <score>-0.0002</score>
+      <visibility>visible</visibility>
+      <domains>
+        <domain>all</domain>
+        <domain>oncoursecl</domain>
+        <domain>sakai-all</domain>
+        <domain>sakaiht</domain>
+      </domains>
+    </result>
+  </results>
+</kbsearch>

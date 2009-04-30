@@ -1,0 +1,17 @@
+#sidebar.yui-skin-sam
+  #search_box.yui-ac
+    %form#search{:action=>'/helptool/search', :method=>'get'}
+      = text_field_tag(:query, params[:query], {:id=> 'live_query', :class=>'yui-ac-input'})
+      %br
+      %br
+      %input{:type=>'submit', :value=> 'Search', :id=>'search_submit'}
+    #live_results.yui-ac-container
+  #results
+    - if @search
+      = render :partial=> 'results'
+  #contents
+    = @contents.html
+  #contents_treeview
+#doc_text
+  - if @doc
+    = @doc.html

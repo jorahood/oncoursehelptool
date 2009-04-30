@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>ScrewUnit results</title>
+    <script src="lib/jquery-1.2.6.js"></script>
+    <script src="lib/jquery.fn.js"></script>
+    <script src="lib/jquery.print.js"></script>
+    <script src="lib/screw.builder.js"></script>
+
+    <script src="lib/screw.matchers.js"></script>
+    <script src="lib/screw.events.js"></script>
+    <script src="lib/screw.behaviors.js"></script>
+
+    <script src="http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.1/build/connection/connection.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.1/build/animation/animation.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.1/build/selector/selector-beta.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.1/build/autocomplete/autocomplete.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.1/build/logger/logger.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.1/build/treeview/treeview.js"></script>
+
+    <!-- dom fixture setup
+    <script src="spec_helper.js"></script>-->
+
+    <link rel="stylesheet" href="lib/screw.css">
+    <!--The script to be tested:-->
+    <script src="../../public/javascripts/application.js"></script>
+
+    <!--The spec script:-->
+    <script src="application_spec.js"></script>
+
+  </head>
+  <body>
+    <!--the spec_helper.js file will copy the test_dom into a variable and reset it before each spec-->
+    <div id="test_dom">
+      <div id="contents">
+        <input type="text" id="live_query"/>
+        <div id="live_results"></div>
+      </div>
+    </div>
+
+  </body>
+</html>

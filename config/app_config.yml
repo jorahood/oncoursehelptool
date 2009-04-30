@@ -1,0 +1,16 @@
+:contents_docid: auob
+:tool_index_docid: avpe
+:default_docid: atjv
+
+#REST parameters
+username_production: oncourse
+password_production: C5R8P585US
+username_development: kbdevtest
+password_development: EKQ6JNSC5A
+username_test: kbdevtest
+password_test: EKQ6JNSC5A
+
+:server: remote.kb.iu.edu
+:audience: oncoursecl
+:domain_class: oncoursecl
+:domain: oncoursecl

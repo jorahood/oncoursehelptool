@@ -1,0 +1,47 @@
+---
+kbsearch:
+  results:
+    result:
+    - visibility: visible
+      score: "0.6921"
+      docid: auyj
+      title: Campus Support Centers
+      domains:
+        domain: oncoursecl
+    - visibility: visible
+      score: "-0.0002"
+      docid: atlx
+      title: Why can't I create a gradebook entry for my assessment?
+      domains:
+        domain:
+        - all
+        - oncoursecl
+        - sakai-all
+        - sakaiht
+    - visibility: visible
+      score: "-0.0002"
+      docid: ardc
+      title: "Tests &amp; Surveys: Publishing an assessment"
+      domains:
+        domain:
+        - oncoursecl
+        - sakai-all
+        - sakaiht
+    - visibility: visible
+      score: "-0.0002"
+      docid: arbk
+      title: Posting an assignment previously saved as a draft
+      domains:
+        domain:
+        - all
+        - oncoursecl
+        - sakai-all
+        - sakaiht
+  noexist:
+  numResults: "4"
+  start: "1"
+  advanced: "0"
+  version: "0.8"
+  ignored:
+  query: |
+    'live'

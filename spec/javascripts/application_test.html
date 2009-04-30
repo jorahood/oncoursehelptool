@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.2/build/logger/assets/logger.css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.2/build/fonts/fonts-min.css" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.2/build/yuitest/assets/testlogger.css">
+
+    <!-- Dependencies -->
+    <script src="http://yui.yahooapis.com/2.5.2/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.2/build/logger/logger-min.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.2/build/connection/connection-min.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.2/build/animation/animation-min.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.2/build/selector/selector-beta-min.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.2/build/autocomplete/autocomplete-min.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.2/build/logger/logger-min.js"></script>
+    <script src="http://yui.yahooapis.com/2.5.2/build/treeview/treeview-min.js"></script>
+
+    <!-- Source File -->
+    <script src="http://yui.yahooapis.com/2.5.2/build/yuitest/yuitest-min.js"></script>
+
+    <!-- Script to be tested -->
+    <script src="../../public/javascripts/application.js"></script>
+
+  </head>
+  <body class="yui-skin-sam">
+    <div id="testLogger"></div>
+
+    <div id="contents">
+      <input type="text" id="live_query"/>
+      <div id="live_results"></div>
+    </div>
+
+    <script type="text/javascript" >
+
+      YAHOO.namespace("appTests");
+
+      $Assert = YAHOO.util.Assert,
+      $E = YAHOO.util.Event,
+      $D = YAHOO.util.Dom,
+      $ = $D.get;
+
+
+      YAHOO.appTests.TreeView = new YAHOO.tool.TestCase({
+
+        name : "Treeview",
+
+        testFindContentsDiv : function () {
+          $Assert.areEqual($('contents'), YAHOO.LQ.contentsDiv());
+        },
+
+        testHideContentsDiv : function () {
+          $Assert.areEqual('none', $('contents').style.display);
+        },
+
+        FIXMEtestFindContentsDivChildren : function () {
+          $Assert.areEqual($D.getChildren('contents'),$D.getChildren('contents'));
+        }
+
+      });
+
+      YAHOO.appTests.AutoComplete = new YAHOO.tool.TestCase({
+
+        name : 'AutoComplete'
+
+        
+      });
+
+      YAHOO.appTests.Suite1 = new YAHOO.tool.TestSuite("The Suite");
+      YAHOO.appTests.Suite1.add(YAHOO.appTests.TreeView);
+
+      YAHOO.util.Event.onDOMReady(function (){
+        //create the logger
+        var logger = new YAHOO.tool.TestLogger("testLogger");
+        YAHOO.tool.TestRunner.add(YAHOO.appTests.Suite1);
+
+        //run the tests
+        YAHOO.tool.TestRunner.run();
+      });
+
+    </script>
+
+  </body>
+</html>
